@@ -1,0 +1,16 @@
+table{
+    color: black;
+    border: 5cm;
+    border border-collapse: collapse;
+}
+body{
+    position: relative;
+    background-color: powderblue;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+h1{
+    color: blue;
+    font-size: 18;
+}
