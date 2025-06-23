@@ -1,16 +1,44 @@
-table{
-    color: black;
-    border: 5cm;
-    border border-collapse: collapse;
+#mission {
+    padding: 10px;
+    margin-bottom: 50px;
+    margin-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+    background-color: antiquewhite;
 }
-body{
-    position: relative;
-    background-color: powderblue;
-    text-align: justify;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 12px;
+
+#values {
+    padding: 10px;
+    padding-right: 10px;
+    margin-bottom: 50px;
+    margin-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+    background-color: aqua;
 }
-h1{
-    color: blue;
-    font-size: 18;
+
+#about-wrapper {
+    displya: flex;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 40px;
+    background-color: blueviolet;
+}
+
+.about-image {
+    flex: 1;
+}
+
+.about-image img {
+    max-width: 100%;
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.about-text {
+    flex: 2;
+    line-height: 1.6;
 }
