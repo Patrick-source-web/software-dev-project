@@ -1,0 +1,17 @@
+.hero {
+    height: 100vh;
+    background-image: url('./My-images/My-background.jpeg');
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 1000px;
+    margin: auto;
+    font-size: larger;
+}
